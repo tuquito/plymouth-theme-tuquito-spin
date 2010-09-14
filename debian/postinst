@@ -18,8 +18,7 @@
 
 case "$1" in
     configure)
-	update-alternatives \
-		--install /lib/plymouth/themes/default.plymouth default.plymouth \
+	update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth \
 		/lib/plymouth/themes/tuquito-spin/tuquito-spin.plymouth 100
 
 	if which update-initramfs >/dev/null 2>&1
