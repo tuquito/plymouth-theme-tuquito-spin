@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Tuquito Spin theme
+Description=Tuquito Spin plymounth theme
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/tuquito-spin
+ScriptFile=/lib/plymouth/themes/tuquito-spin/mdv.script
